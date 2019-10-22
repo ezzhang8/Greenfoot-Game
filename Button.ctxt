@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\n\ Button\ is\ a\ parent\ class\ of\ all\ buttons\ used\ in\ the\ game.\ Buttons,\ when\ clicked,\ set\ the\ world.\n\ \n\ @author\ (your\ name)\ \n\ @version\ 10.18\n
+comment1.params=world
+comment1.target=void\ onClickSetWorld(greenfoot.World)
+comment1.text=\n\ \n
+numComments=2

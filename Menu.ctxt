@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Menu
+comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @Eric\ Zhang\n\ @0.1\n
+comment1.params=
+comment1.target=Menu()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+comment2.params=
+comment2.target=void\ initializeUI()
+numComments=3

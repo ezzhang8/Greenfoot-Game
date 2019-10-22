@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ Write\ a\ description\ of\ class\ Player\ here.\n\ \n\ @Eric\ Zhang\n\ @18\ October\ 2019\n
+comment1.params=playerAmount
+comment1.target=Player(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=playernumbers
+comment3.target=void\ movementHandler(int)
+numComments=4
