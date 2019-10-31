@@ -16,4 +16,9 @@ public class Wall extends Obstacle
     {
         // Add your action code here.
     }    
+    
+    public void contactHandler(Class objectClass){
+        
+    }
+    
 }

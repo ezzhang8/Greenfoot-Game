@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 /**
  * Write a description of class Obstacle here.
  * 
@@ -14,6 +14,17 @@ public class Obstacle extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        checkPlayerTouch();
     }    
+    public List checkPlayerTouch() {
+        return getIntersectingObjects(Player.class);
+    }
+    public List checkVillainTouch() {
+        return getIntersectingObjects(Villain.class);
+    }
+    public boolean canSee(Class clss)
+    {
+        Actor actor = getOneObjectAtOffset(0, 0, clss);
+        return actor != null;        
+    }
 }

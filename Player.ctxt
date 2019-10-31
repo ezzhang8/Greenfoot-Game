@@ -1,10 +1,22 @@
 #BlueJ class context
 comment0.target=Player
 comment0.text=\n\ Write\ a\ description\ of\ class\ Player\ here.\n\ \n\ @Eric\ Zhang\n\ @18\ October\ 2019\n
-comment1.params=playerAmount
+comment1.params=playerId
 comment1.target=Player(int)
 comment2.params=
 comment2.target=void\ act()
-comment3.params=playernumbers
-comment3.target=void\ movementHandler(int)
-numComments=4
+comment2.text=\n\ Act\ method\ is\ called\ a\ lot.\n
+comment3.params=playerId
+comment3.target=void\ checkKeyPress(int)
+comment3.text=\n\ Checks\ for\ user\ input.\n\ \n
+comment4.params=
+comment4.target=void\ collisionCheck()
+comment5.params=vector1\ vector2
+comment5.target=void\ smartMove(int,\ int)
+comment5.text=\n\ vector1\:\ 1\ \=\ forward,\ -1\ \=\ backwards\n\ vector2\:\ 1\ \=\ north\ 2\ \=\ east,\ 3\ \=\ south,\ 4\ \=\ west\n
+comment6.params=vector1\ vector2
+comment6.target=void\ bounce(int,\ int)
+comment7.params=newWalkSpeed
+comment7.target=void\ affectSpeed(int)
+comment7.text=\n\ Mutator\ method\:\ change\ WalkSpeed\n
+numComments=8
