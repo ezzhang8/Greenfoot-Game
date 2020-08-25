@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ImageLabel
+comment0.text=\r\n\ ImageLabels\ display\ a\ GreenfootImage\ as\ a\ user\ interface\ element.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 15,\ 2019\r\n
+comment1.params=img\ sizeX\ sizeY
+comment1.target=ImageLabel(greenfoot.GreenfootImage,\ int,\ int)
+comment1.text=\r\n\ Construct\ an\ ImageLabel\ with\ background\ image\ img,\ width\ sizeX,\ and\ height\ sizeY.\r\n\ @param\ img\ Image\ to\ set\ the\ label\ to.\r\n\ @param\ sizeX\ Width\ of\ the\ ImageLabel.\r\n\ @param\ sizeY\ Height\ of\ the\ ImageLabel.\r\n
+numComments=2

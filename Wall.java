@@ -1,24 +1,24 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Wall here.
+ * Walls will block the player and zombies from getting past. Interaction events are handled in their respective classes.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
 public class Wall extends Obstacle
 {
+    //image of the wall (one black pixel)
+    private GreenfootImage image;
     /**
-     * Act - do whatever the Wall wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Scales the wall image (a black pixel) to a size.
+     * @param sizeX size along X axis in pixels
+     * @param sizeY size along Y axis in pixels
      */
-    public void act() 
+    public Wall(int sizeX, int sizeY)
     {
-        // Add your action code here.
-    }    
-    
-    public void contactHandler(Class objectClass){
-        
+        image = getImage();
+        //scale the image.
+        image.scale(sizeX, sizeY);
     }
-    
 }

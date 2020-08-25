@@ -1,13 +1,7 @@
 #BlueJ class context
 comment0.target=Obstacle
-comment0.text=\n\ Write\ a\ description\ of\ class\ Obstacle\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Serves\ no\ purpose\ except\ for\ the\ future-\ \ if\ I\ wanted\ to\ add\ multiple\ types\ of\ obstacles,\ I\ wouldn't\ have\ to\ go\ back\ and\ change\ much\ code.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Obstacle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-comment2.params=
-comment2.target=java.util.List\ checkPlayerTouch()
-comment3.params=
-comment3.target=java.util.List\ checkVillainTouch()
-comment4.params=clss
-comment4.target=boolean\ canSee(java.lang.Class)
-numComments=5
+comment1.target=Obstacle()
+comment1.text=\r\n\ Empty\ Constructor\r\n
+numComments=2

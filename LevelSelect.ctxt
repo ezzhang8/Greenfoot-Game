@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LevelSelect
+comment0.text=\r\n\ The\ world\ that\ appears\ after\ the\ player\ has\ chosen\ either\ 1\ player\ or\ 2\ player\ mode.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
+comment1.params=players
+comment1.target=LevelSelect(int)
+comment1.text=\r\n\ Constructs\ the\ LevelSelect\ world.\r\n\ @param\ players\ The\ number\ of\ players\ depending\ on\ what\ the\ player\ chose\ on\ the\ previous\ screen.\r\n
+comment2.params=
+comment2.target=void\ initUI()
+comment2.text=\r\n\ Initialize\ UI\ found\ on\ the\ Level\ select\ screen.\r\n
+numComments=3

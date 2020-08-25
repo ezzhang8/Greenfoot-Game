@@ -1,30 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.List;
 /**
- * Write a description of class Obstacle here.
+ * Serves no purpose except for the future-  if I wanted to add multiple types of obstacles, I wouldn't have to go back and change much code.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
 public class Obstacle extends Actor
 {
     /**
-     * Act - do whatever the Obstacle wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Empty Constructor
      */
-    public void act() 
+    public Obstacle()
     {
-        checkPlayerTouch();
-    }    
-    public List checkPlayerTouch() {
-        return getIntersectingObjects(Player.class);
-    }
-    public List checkVillainTouch() {
-        return getIntersectingObjects(Villain.class);
-    }
-    public boolean canSee(Class clss)
-    {
-        Actor actor = getOneObjectAtOffset(0, 0, clss);
-        return actor != null;        
     }
 }

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Scoreboard
+comment0.text=\r\n\ Displays\ the\ amount\ of\ coins\ collected\ and\ lives\ for\ each\ player\ in\ the\ game.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
+comment1.params=
+comment1.target=Scoreboard()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Scoreboard\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ displayScores()
+comment3.text=\r\n\ First\ checks\ for\ the\ number\ of\ players,\ then\ displays\ the\ amount\ of\ coins\ collected\ and\ lives\ for\ each\ one.\r\n
+numComments=4

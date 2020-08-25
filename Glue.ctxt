@@ -1,11 +1,7 @@
 #BlueJ class context
 comment0.target=Glue
-comment0.text=\n\ Write\ a\ description\ of\ class\ Glue\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ A\ glue\ entity\ which\ reduces\ the\ player's\ walkSpeed\ stat.\ Handling\ interactions\ with\ this\ class\ is\ done\ in\ the\ Player\ class.\r\n\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
 comment1.params=
 comment1.target=Glue()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Glue\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-comment2.params=
-comment2.target=void\ act()
-comment3.params=
-comment3.target=void\ glue()
-numComments=4
+comment1.text=\r\n\ Sets\ the\ glue\ image\ upon\ creation.\ Also\ sets\ the\ image\ transparency\ to\ 125/255.\r\n
+numComments=2

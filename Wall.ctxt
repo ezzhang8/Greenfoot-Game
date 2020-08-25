@@ -1,9 +1,7 @@
 #BlueJ class context
 comment0.target=Wall
-comment0.text=\n\ Write\ a\ description\ of\ class\ Wall\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Wall\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-comment2.params=objectClass
-comment2.target=void\ contactHandler(java.lang.Class)
-numComments=3
+comment0.text=\r\n\ Walls\ will\ block\ the\ player\ and\ zombies\ from\ getting\ past.\ Interaction\ events\ are\ handled\ in\ their\ respective\ classes.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
+comment1.params=sizeX\ sizeY
+comment1.target=Wall(int,\ int)
+comment1.text=\r\n\ Scales\ the\ wall\ image\ (a\ black\ pixel)\ to\ a\ size.\r\n\ @param\ sizeX\ size\ along\ X\ axis\ in\ pixels\r\n\ @param\ sizeY\ size\ along\ Y\ axis\ in\ pixels\r\n
+numComments=2

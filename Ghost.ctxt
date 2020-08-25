@@ -1,7 +1,21 @@
 #BlueJ class context
 comment0.target=Ghost
-comment0.text=\n\ Write\ a\ description\ of\ class\ Ghost\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Ghosts\ will\ seek\ a\ target\ and\ move\ towards\ that\ target,\ removing\ any\ obstacles\ in\ their\ way.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Ghost\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
+comment1.target=Ghost()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Ghost\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ deleteWalls()
+comment3.text=\r\n\ Deletes\ walls\ and\ obstacles\ when\ the\ ghost\ touches\ them.\r\n
+comment4.params=
+comment4.target=void\ haunt()
+comment4.text=\r\n\ Haunts\ a\ target\ by\ changing\ the\ position\ of\ this\ Ghost\ to\ match\ the\ position\ of\ the\ target.\r\n
+comment5.params=
+comment5.target=void\ playSound()
+comment5.text=\r\n\ Plays\ a\ ghost\ sound\ for\ around\ each\ 500\ executions\ of\ the\ act\ method.\r\n
+comment6.params=
+comment6.target=void\ seek()
+comment6.text=\r\n\ Looks\ for\ a\ Player\ within\ 200\ pixels\ of\ this\ Ghost,\ then\ sets\ the\ target\ to\ that\ Player.\r\n
+numComments=7

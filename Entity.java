@@ -1,19 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Entity here.
+ * Entity is a parent class shared by all entities in the game. It is used to refer to all entities at once in code and has no functionality of its own. See method entityCheck() in Player.class.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
 public class Entity extends Actor
 {
     /**
-     * Act - do whatever the Entity wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Constructor for Entity class. The constructor is empty.
      */
-    public void act() 
+    public Entity() 
     {
-        // Add your action code here.
-    }    
+    }
 }

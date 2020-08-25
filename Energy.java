@@ -1,19 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Energy here.
+ * An Energy entity which boosts the player's walkSpeed stat. Handling interactions with this class is done in the Player class.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
 public class Energy extends Entity
 {
     /**
-     * Act - do whatever the Energy wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Sets the energy image.
      */
-    public void act() 
+    public Energy()
     {
-        // Add your action code here.
-    }    
+        setImage("energy.png");
+    }
 }

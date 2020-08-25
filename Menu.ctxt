@@ -1,9 +1,10 @@
 #BlueJ class context
 comment0.target=Menu
-comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @Eric\ Zhang\n\ @0.1\n
+comment0.text=\r\n\ The\ default\ World\ class,\ which\ is\ the\ menu\ screen\ the\ user\ initialy\ sees.\ Instantiate\ this\ world\ to\ begin\ the\ game.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 15,\ 2019\r\n
 comment1.params=
 comment1.target=Menu()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
+comment1.text=\r\n\ Constructor\ for\ the\ main\ title\ screen.\r\n
 comment2.params=
-comment2.target=void\ initializeUI()
+comment2.target=void\ initUI()
+comment2.text=\r\n\ Intiialize\ the\ UI\ elements\ found\ on\ the\ main\ title\ screen.\r\n
 numComments=3

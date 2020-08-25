@@ -1,19 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Health here.
+ * A Health entity which adds one to the player's lives stat. Handling interactions with this class is done in the Player class.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
 public class Health extends Entity
 {
     /**
-     * Act - do whatever the Health wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Sets the image to a heart upon creation.
      */
-    public void act() 
+    public Health()
     {
-        // Add your action code here.
-    }    
+        setImage("heart.png");
+    } 
 }

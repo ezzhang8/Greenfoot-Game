@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Coin here.
+ * A coin entity which adds to the player's coinsCollected stat. Handling interactions with this class is done in the Player class.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
 public class Coin extends Entity
 {
     /**
-     * Act - do whatever the Coin wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Sets the coin image upon creation.
      */
-    public void act() 
+    public Coin()
     {
-        // Add your action code here.
-    }    
+        setImage("coin.png");
+    }
+     
 }

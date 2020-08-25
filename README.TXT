@@ -1,12 +1,21 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+Coins & Creeps
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
+PROJECT TITLE: Coins and Creeps
+PURPOSE OF PROJECT: Assignment for AP Computer Science Create Task
+VERSION or DATE: 17 November 2019
 HOW TO START THIS PROJECT:
+
+Hi!
+To begin playing this game, make sure to right click "Menu" in the class tree on the right side and hit "new Menu()" in the context menu to instantiate that world.
+
+Have fun!
+- Eric Zhang
+
 AUTHORS:
-USER INSTRUCTIONS:
+Eric Zhang
+
+Tested by:
+Dante Romey
+Mike Wang

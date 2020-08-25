@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Entity
-comment0.text=\n\ Write\ a\ description\ of\ class\ Entity\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Entity\ is\ a\ parent\ class\ shared\ by\ all\ entities\ in\ the\ game.\ It\ is\ used\ to\ refer\ to\ all\ entities\ at\ once\ in\ code\ and\ has\ no\ functionality\ of\ its\ own.\ See\ method\ entityCheck()\ in\ Player.class.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Entity\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.target=Entity()
+comment1.text=\r\n\ Constructor\ for\ Entity\ class.\ The\ constructor\ is\ empty.\r\n
 numComments=2

@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=Villain
-comment0.text=\n\ Write\ a\ description\ of\ class\ Villain\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Parent\ class\ for\ all\ Villains\ in\ the\ game\:\ Ghosts\ and\ Zombies.\ Allows\ villains\ to\ share\ and\ reuse\ code\ common\ to\ each\ other.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Villain\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=2
+comment1.target=Villain()
+comment1.text=\r\n\ Empty\ constructor.\r\n
+comment2.params=
+comment2.target=boolean\ aPlayerIsReady()
+comment2.text=\r\n\ Checks\ if\ either\ player\ has\ pressed\ a\ key.\ \r\n\ @return\ True\ if\ a\ player\ has\ pressed\ a\ key,\ false\ otherwise.\r\n
+comment3.params=object\ vector1\ vector2\ walkSpeed
+comment3.target=void\ smartMove(Villain,\ int,\ int,\ int)
+comment3.text=\r\n\ Moves\ the\ villain\ that\ accounts\ for\ direction\ and\ walk\ speed.\ Shares\ similarities\ with\ the\ method\ of\ the\ same\ name\ found\ in\ the\ Player\ class.\r\n\ @param\ object\ The\ villain\ that\ will\ be\ moved.\r\n\ @param\ vector1\ Either\ 1\ for\ a\ positive\ direction\ (north\ or\ east),\ or\ -1\ for\ a\ negative\ direction\ (south\ or\ west)\r\n\ @param\ vector2\ Integer\ used\ to\ represent\ the\ cardinal\ points.\ 1\ is\ used\ to\ represent\ north,\ 2\ is\ used\ to\ represent\ east,\ 3\ is\ used\ to\ represent\ south,\ 4\ is\ used\ to\ represent\ west.\r\n\ @param\ walkSpeed\ The\ amount\ of\ pixels\ to\ move\ the\ villain\ each\ time\ this\ method\ is\ called.\r\n
+numComments=4

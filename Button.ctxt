@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=Button
-comment0.text=\n\ Button\ is\ a\ parent\ class\ of\ all\ buttons\ used\ in\ the\ game.\ Buttons,\ when\ clicked,\ set\ the\ world.\n\ \n\ @author\ (your\ name)\ \n\ @version\ 10.18\n
-comment1.params=world
-comment1.target=void\ onClickSetWorld(greenfoot.World)
-comment1.text=\n\ \n
-numComments=2
+comment0.text=\r\n\ Button\ is\ the\ class\ for\ buttons\ in\ the\ world.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 15,\ 2019\r\n
+comment1.params=text\ sizeX\ sizeY\ world
+comment1.target=Button(java.lang.String,\ int,\ int,\ greenfoot.World)
+comment1.text=\r\n\ Constructs\ a\ button\ able\ to\ set\ the\ World\ when\ clicked.\r\n\ @param\ text\ The\ text\ to\ be\ shown\ on\ the\ button.\r\n\ @param\ sizeX\ The\ width\ of\ the\ button\ in\ pixels.\r\n\ @param\ sizeY\ The\ height\ of\ the\ button\ in\ pixels.\r\n\ @param\ world\ The\ world\ that\ is\ set\ by\ the\ Button\ when\ clicked.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ onClickSetWorld()
+comment3.text=\r\n\ Checks\ if\ the\ button\ is\ clicked\ and\ a\ world\ is\ available\ to\ set,\ then\ sets\ the\ world\ when\ clicked.\r\n
+numComments=4

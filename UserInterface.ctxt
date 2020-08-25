@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UserInterface
+comment0.text=\r\n\ Contains\ methods\ accessable\ to\ UI\ object\ subclasses,\ and\ used\ to\ identify\ subclasses\ as\ UI\ objects.\ This\ class\ is\ not\ used\ on\ its\ own;\ ts\ methods\ are\ inherited\ by\ its\ subclasses.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 15,\ 2019\r\n
+comment1.params=
+comment1.target=UserInterface()
+comment1.text=\r\n\ Empty\ constructor.\r\n
+comment2.params=img\ text
+comment2.target=void\ initializeText(greenfoot.GreenfootImage,\ java.lang.String)
+comment2.text=\r\n\ Initialize\ default\ font\ settings.\ Called\ from\ a\ subclass.\r\n\ @param\ img\ A\ GreenfootImage\ for\ the\ subclass.\r\n\ @param\ text\ The\ text\ to\ be\ shown\ on\ the\ UI\ object.\r\n
+numComments=3

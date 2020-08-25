@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Energy
-comment0.text=\n\ Write\ a\ description\ of\ class\ Energy\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ An\ Energy\ entity\ which\ boosts\ the\ player's\ walkSpeed\ stat.\ Handling\ interactions\ with\ this\ class\ is\ done\ in\ the\ Player\ class.\r\n\ \r\n\ @author\ Eric\ Zhang\r\n\ @version\ November\ 17,\ 2019\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Energy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.target=Energy()
+comment1.text=\r\n\ Sets\ the\ energy\ image.\r\n
 numComments=2

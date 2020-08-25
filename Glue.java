@@ -1,31 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.List;
+
 /**
- * Write a description of class Glue here.
+ * A glue entity which reduces the player's walkSpeed stat. Handling interactions with this class is done in the Player class.
+
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eric Zhang
+ * @version November 17, 2019
  */
-public class Glue extends Obstacle
+public class Glue extends Entity
 {
     /**
-     * Act - do whatever the Glue wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Sets the glue image upon creation. Also sets the image transparency to 125/255.
      */
     public Glue() 
     {
-        setImage("glue.png");
-    }
-    
-    public void act() 
-    {
-        glue();
-    }    
-    
-    public void glue() 
-    {
-        for (int i=1; i<=(super.checkPlayerTouch().size()); i++) {
-            getWorld().getObjects(Player.class).get((int)(super.checkPlayerTouch().size())-1).affectSpeed(5);
-        }
-    }
+        setImage("goo.png");
+        getImage().setTransparency(125);
+    }   
 }
